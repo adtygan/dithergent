@@ -49,7 +49,7 @@ def image_to_ascii(image_path):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python renderer.py <image_path> [output_path]")
+        print("Usage: python renderer.py <image_path> <output_path>")
         return
 
     image_path = sys.argv[1]
